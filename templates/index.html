@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mystery Box Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Flask Did This</h1>
+    <button id="title-button">Toggle Color</button>
+    <p>This is a simple webpage hosted with Flask.</p>
+    <p>Check our the <a href="{{ url_for('hello')}}">hello world</a> page.</p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
