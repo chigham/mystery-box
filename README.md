@@ -16,6 +16,10 @@ python -m pip install flask
 ```
 
 Run `app.py`, then access local server in browser: `http://127.0.0.1:5000/`
+You can also run this command in the terminal when mystery-box is the directory:
+```shell
+flask --app app run
+```
 
 Ensure styling is working. Confirm some text is red and blue.
 
@@ -24,3 +28,6 @@ Confirm JavaScript is working by clicking the button to toggle the title color.
 Confirm Flask paths are working by clicking "hello world" which includes an embedded link to another page rendered by dask.
 
 Next steps: configure python anywhere web app to look at github repository code.
+
+### Connecting GitHub to PythonAnywhere Web App
+Here are some directions: `https://www.youtube.com/watch?v=4sTZN15J33A`
